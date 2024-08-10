@@ -1,0 +1,25 @@
+.sidebar-icon-div:hover,
+.video-image:hover,
+.channel-profile:hover,
+.right-section:hover
+{
+cursor: pointer;
+}
+.sidebar-icon-div:active,
+button:active,
+.video-image:active,
+.channel-profile:active,
+.tooltipcontainer:active
+{
+  opacity: 0.5;
+}
+
+.sidebar-icon-div:hover{
+  background-color: rgb(226, 218, 218);
+}
+.search-button:hover .tooltip,
+.tooltipcontainer:hover .tooltip,
+.voice-search-button:hover .tooltip
+{
+  opacity: 1;
+}
